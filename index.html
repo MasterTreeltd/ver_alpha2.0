@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet" media="all">
+<link rel="icon" href="tree.ico" type="image/x-icon">
+<link href="http://fonts.cdnfonts.com/css/jokerman" rel="stylesheet">
+<meta name="keywords" content="小一升班課程,Master Tree,MasterTree,master tree,mastertree,小一準備課程,Courses for pre primary,pre primary course,pre-primary,class for kids,kids,children,children course,MasterTree,facebook mastertree ,mastertree">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@import url('http://fonts.cdnfonts.com/css/jokerman');
+
+.mobile-container {
+  max-width: 1000000000px;
+  margin: auto;
+  background-color: #FFFFFF;
+  height: 900px;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #b3e5fc;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ADD8E6;
+  color: white;
+}
+
+.active {
+  background-color: #81d4fa;
+  color: white;
+}
+#header{
+  text-align: center;
+  font-family: 'Jokerman', sans-serif;
+
+}
+h3{
+  text-align: center;
+}
+img{
+  text-align: center;
+   display: block;
+}
+.classintro1{
+  color: #44b97b;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.classintro2{
+  color: #0ab1b0;
+  text-align: center;
+   box-sizing: border-box;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  img {
+    position: absolute;
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/8d/29/11/8d291189ea4144be3c5eb5a015559c8e.jpg);
+}
+#reg {
+			display: block;
+			margin: 0 auto;
+			margin-top: 50px;
+			padding: 20px 40px;
+			border-radius: 10px;
+			background-color: #4CAF50;
+			color: white;
+			font-size: 20px;
+			border: none;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			transition-duration: 0.4s;
+		}
+		#reg:hover {
+			background-color: #3e8e41;
+			box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.2);
+		}
+		#reg:focus {
+			outline:none;
+		}
+</style>
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active">Home </a>
+  <div id="myLinks">
+    <a href="https://www.facebook.com/p/Master-Tree-100083079772047/">FaceBook Posts</a>
+    <a href="Contactus.html">Contact Us</a>
+    <a href="register.html">報名</a>
+    <a href="https://xx-uniquedev-xx.github.io/master-tree-temp-web/giveusfeedback%20Chinese%20.html">給予反饋</a>
+
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h1 id="header">
+    <span style="color: red;">M</span>
+    <span>a</span>
+    <span>s</span>
+    <span>t</span>
+    <span>e</span>
+    <span>r</span>
+    <span> </span>
+    <span style="color: green;">T</span>
+    <span>r</span>
+    <span>e</span>
+    <span>e</span>
+  </h1>
+  <h3>Master Tree K1-K3兒童提供準備升小一教育課程，包括精心設計的故事和課。
+我們提供常規課程(每週)和暑期課程。</h3>
+<h3>為何是MASTER TREE?</h3>
+<p class="classintro1"> ✨精心設計的專有課程</p>
+<p class="classintro1"> 我們為Master Tree每個課程製定了詳細的課程計劃，以最大限度地提高學生的學習潛力。</p>
+<!-- <img src="Demo image.jpg"> -->
+<p class="classintro2">✨專有的跟進</p>
+<p class="classintro2">和家長進行緊密跟進，進一步地了解小學面試的最新資料和要求</p>
+<p class="classintro2">👩‍🏫老師超過14年幼教經驗，累積過千位學生，深得學生愛戴及家長信任。擅長教小一面試培訓班及講故事技巧班，了解直資及私立小學面試內容。</p>
+	<button id="reg" onclick="window.location.href='register.html'">報名</button>
+
+	
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
